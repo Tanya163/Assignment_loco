@@ -64,7 +64,9 @@ text-align: left;
 color: hsl(0deg 0% 20%);
 font-weight: 400;
 }
-
+.choose {
+  margin-left: -50px;
+  }
 .choose button {
   background-color: white;
   border: 1px solid rgba(53, 51, 51, 0.123);
