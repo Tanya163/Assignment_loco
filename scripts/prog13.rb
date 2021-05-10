@@ -1,4 +1,4 @@
 puts "enter number"
 num=gets
 num=num.to_i
-puts fact=num.downto(1).inject(:*)
+puts fact=(1..num).inject(:*)
