@@ -1,7 +1,7 @@
 def prime(n)
   (2..n).step(1).each do |value|
     is_prime=true
-    (2..value/2).each do |e|
+    (2..Math.sqrt(value)).each do |e|
       if value%e==0
         is_prime=false
         break
